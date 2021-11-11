@@ -5,9 +5,15 @@ namespace App;
 
 class Call
 {
-	
-	function __construct()
+
+	private $phone_number;
+	function __construct($phone_number)
 	{
-		# code...
+		$this->phone_number = $phone_number;
+	}
+
+	public function IsValidCall()
+	{
+		return !empty($this->phone_number);
 	}
 }

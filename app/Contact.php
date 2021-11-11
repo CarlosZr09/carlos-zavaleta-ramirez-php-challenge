@@ -5,9 +5,17 @@ namespace App;
 
 class Contact
 {
-	
-	function __construct()
+	private $name = '';
+	private $phone_number = '';
+
+	function __construct($name, $phone_number)
 	{
-		# code...
+		$this->name = $name;
+		$this->phone_number = $phone_number;
+	}
+
+	function getPhoneNumber()
+	{
+		return $this->phone_number;
 	}
 }

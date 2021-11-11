@@ -8,10 +8,10 @@ Chicho challenge
 
 #### Tasks
 
-- Fix any errors and add the necessary to make the test work and commit it
-- Add a test for the method makeCallByName passing a valid contact, mock up any hard dependency and add the right assertions
-- Add the necessary code in the production code to check when the contact is not found and add another test to test that case
-- Add your own logic to send a SMS given a number and the body, the method should validate the number using the validateNumber method from ContactService and using the provider property’s methods
+-- Fix any errors and add the necessary to make the test work and commit it
+-- Add a test for the method makeCallByName passing a valid contact, mock up any hard dependency and add the right assertions
+-- Add the necessary code in the production code to check when the contact is not found and add another test to test that case
+-- Add your own logic to send a SMS given a number and the body, the method should validate the number using the validateNumber method from ContactService and using the provider property’s methods
 - When writing the tests you should mock every method from ContactService
 
 #### Bonus
